@@ -4,7 +4,7 @@ import Main from './components/Main';
 import Footer from "./components/Footer"
 import {FolderContext} from "./context/FoldersContext";
 import "./App.css";
-import {ErrorBoundary} from 'react-error-boundary'
+import ErrorBoundary from './components/ErrorBoundary'
 
 class App extends Component {
 
